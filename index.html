@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x.icon" href="G:\\Flowers\\download.jpg">
+	<title>Flowers for all</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+	<header class="header">
+		<h1 class="header__h1">FLOWERS FOR ALL</h1>
+		<nav class="header__nav">
+			<ul class="header__ul">
+				<li>
+					<a href="#Avaliable">Avaliable</a>
+				</li>
+				<li>
+					<a href="#PriceList">Price List</a>
+				</li>
+				<li>
+					<a href="#Order">Order</a>
+				</li>
+				<li>
+					<a href="#ContactUs">Contact Us</a>
+				</li>
+				<li>
+					<a href="#FeedBack">Feedback</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section class="hero">
+		<h1 class="hero__h1">FLOWERS</h1>
+		<figure>
+			<img src="G:\\Flowers\\images\\photo-1490750967868-88aa4486c946.avif" alt="FLOWERS FOR ALL" title="U luv Flowers?" width="1000" height="667">
+		</figure>
+	</section>
+	<main class="main">
+		<article id="Avaliable" class="main__article">
+			<h2 class="main__h2">Avaliable Flowers:</h2>
+			<nav class="main__nav">
+				<ol class="main__ol">
+					<li><a href="Rose.html">Rose</a> 🌹</li>
+					<li><a href="tulip.html">Tulip</a> 🌷</li>
+					<li><a href="sunflower.html">Sunflower</a> 🌻</li>
+					<li><a href="frangipani.html">Frangipani</a> 💮</li>
+					<li><a href="hibiscus.html">Hibiscus</a> 🌺</li>
+				</ol>
+			</nav>
+		</article>
+		<article id="PriceList" class="main__article menu">
+			<h2 class="menu__h2">Our Price List</h2>
+			<table class="menu__container">
+				<caption class="offscreen">Our Price List</caption>
+				<thead>
+					<tr>
+						<th class="menu__header" scope="col">Name</th>
+						<th class="menu__header" scope="col">Price</th>
+						<th class="menu__header" scope="col">Color</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th class="menu_item menu__r" scope="row">Rose</th>
+						<td class="menu_item">20tk</td>
+						<td class="menu_item">Red,Pink</td>
+					</tr>
+					<tr>
+						<th class="menu_item menu__t" scope="row">Tulip</th>
+						<td class="menu_item">15tk</td>
+						<td class="menu_item">Red,Yellow,White and Purple,Pink</td>
+					</tr>
+					<tr>
+						<th class="menu_item menu__s" scope="row">Sunflower</th>
+						<td class="menu_item">30tk</td>
+						<td class="menu_item">Yellow</td>
+					</tr>
+					<tr>
+						<th class="menu_item menu__f" scope="row">Frangipani</th>
+						<td class="menu_item">10tk</td>
+						<td class="menu_item">White,Pink</td>
+					</tr>
+					<tr>
+						<th class="menu_item menu__h" scope="row">Hibiscus</th>
+						<td class="menu_item">15tk</td>
+						<td class="menu_item">Red</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td class="menu_item menu__SP" colspan="3">Special Wrap 40tk</td>
+					</tr>
+				</tfoot>
+			</table>
+			<br>
+			<aside>
+				<details>
+					<summary>How is the price??</summary>
+					<p>Our price of flowers are for a single peice. Only except Frangipani, you will get 4 for 10.</p>
+				</details>
+			</aside>
+		</article>
+		<br>
+		<hr>
+		<article id="Order" class="main__article">
+			<h2 class="main__h2">Select the Flowers: </h2>
+			<ol class="main__ol2">
+				<p>
+					<label class="label__name" for="Rose">Rose: </label>
+					<input type="number" name="Rose" id="Rose" min="0" max="50" value="0">
+				</p>
+				<p>
+					<label class="label__name" for="Tulip">Tulip: </label>
+					<input type="number" name="Tulip" id="Tulip" min="0" max="50" value="0">
+				</p>
+				<p>
+					<label class="label__name" for="Sunflower">Sunflower: </label>
+					<input type="number" name="Sunflower" id="Sunflower" min="0" max="50" value="0">
+				</p>
+				<p>
+					<label class="label__name" for="Frangipani">Frangipani: </label>
+					<input type="number" name="Frangipani" id="Frangipani" min="0" max="50" value="0">
+				</p>
+				<p>
+					<label class="label__name" for="Hibiscus">Hibiscus: </label>
+					<input type="number" name="Hibiscus" id="Hibiscus" min="0" max="50" value="0">
+				</p>
+			</ol>
+			<button class="contact__button" type="Submit">Submit</button>
+		</article>
+		<br>
+		<hr>
+		<article id="ContactUs" class="main__article">
+			<h3>Flowers For All: </h3>
+			<address>
+				Address: Upor Vodra, Boalia, Rajshahi.
+				<br>
+				The contact number is: 017-4036-3401
+				<br>
+				Emali: mostafizurrahamnsajal8@gmail.com
+			</address>
+		</article>
+		<br>
+		<hr>
+		<article id="FeedBack" class="main__article contact">
+			<h2 class="contact__h2">Our FeedBack Form</h2>
+			<form action="https://httpbin.org/get" method="get" class="contact__form">
+				<fieldset class="contact__fieldset">
+					<legend class="offscreen">Feedback</legend>
+					<p class="contact__p">
+						<label class="contact__label" for="name">Name: </label>
+						<input class="contact__input" type="text" name="name" id="name" autocomplete="on">
+					</p>
+					<p>
+						<label class="contact__label" for="email">Email: </label>
+						<input class="contact__input" type="email" name="email" id="email" autocomplete="on">
+					</p>
+					<p>
+						<label class="contact__label" for="message">Your message: </label>
+						<textarea class="contact__textarea" type="text" name="message" id="email" rows="15" cols="40"
+							placeholder="Type your message here"></textarea>
+					</p>
+				</fieldset>
+				<button class="contact__button" type="submit">Send</button>
+				<button class="contact__button" type="reset">Reset</button>
+			</form>
+		</article>
+	</main>
+	<br>
+	<hr>
+	<p class="center">
+		<a href="#">Back to Top</a>
+	</p>
+	<footer class="footer">
+		<p>
+			<span class="nowrap">Copytright &copy;</span>
+			<span class="nowrap">FLOWERS FOR ALL</span>
+		</p>
+	</footer>
+</body>
+
+</html>
